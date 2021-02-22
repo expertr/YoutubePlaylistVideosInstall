@@ -31,12 +31,10 @@ try:
     print(f"[+] Starting {len(playlist)} install videos...")
     os.mkdir(path + playlist.title)
     for videoURL in playlist:
-        if counter == len(playlist):
-            print("[+] Finished !")
-        else:
-            video = pytube.YouTube(videoURL)
-            print(f"[+] #{counterAdd()} - '{video.title}' Downloading")
-            video.streams.filter(file_extension='mp4').first().download(output_path=path + playlist.title)
+        video = pytube.YouTube(videoURL)
+        print(f"[+] #{counterAdd()} - '{video.title}' Downloading")
+        video.streams.filter(file_extension='mp4').first().download(output_path=path + playlist.title)
+    print("[+] Finished !")
 except: 
     os.system("color c")
     print("[-] Error !!")
