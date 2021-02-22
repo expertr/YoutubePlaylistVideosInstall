@@ -39,6 +39,8 @@ and install to finish !
 
 ```
 
+**NOTE: It only works on windows but it would be better if you arrange it for yourself !!!!!!**
+
 **Enjoy useeeee**
 
 
