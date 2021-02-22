@@ -16,7 +16,7 @@ and install to finish !
 **Images from use**
 
 ```bash
-root@pc:~# python script.py
+> python script.py
 
 
  __   __        _        _         ___ _           _ _    _ __   ___    _            ___         _        _ _
